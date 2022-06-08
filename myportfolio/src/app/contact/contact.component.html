@@ -1,0 +1,40 @@
+
+<section class="contact">
+    <div class="container" >
+      <div class="row">
+
+        <div class="col-md-6">
+          <img src="assets/anime.png" class="img" alt="">
+        </div>
+
+        <div class="col-md-6 par">
+          <p> You have a business that you want to market for your goods and services but don't have a website or app? I am your go-to person.
+            I develop sites from scratch. From designing to its functionality (Front-end and Back-end) and then deploy them for you.
+
+          </p>
+
+          <form action="https://formspree.io/f/moqreeky" method="POST">
+          <input type="text" formControlName="firstName" class="form-control" name="name" id="name" placeholder="Name" required>
+          <input type="email" formControlName="email" class="form-control" name="email" id="email" placeholder="Email" required>
+          <textarea formControlName="message" id="subject" name="message"  placeholder="Message" class="input-control" required></textarea>
+          <button class="submit" [disabled]="!FormData.valid">SEND</button>
+        </form>
+    </div>
+
+      </div>
+  </div>
+  </section>
+
+<!-- footer -->
+<footer class="p-5 text-light text-center position-relative" id="contact">
+    <div class="container">
+      <div class="social-links">
+        <a href="https://github.com/zintle96"> <img src="assets/github-lg.png"></a>
+        <a href="https://www.linkedin.com/in/zintle-meslane-69ab1719a/"> <img src="assets/linkedin-lg.png" alt=""></a>
+        <a href="https://twitter.com/ZMeslane"> <img src="assets/twitter-logo.png"></a>
+        <!-- <a href="https://www.instagram.com/meslane_z/"> <img src="assets/insta-logo.png" alt=""></a> -->
+      </div>
+      <p class="lead" style="color: black;">Created by Zintle Meslane &copy; 2021 Developer Portfolio</p>
+
+    </div>
+    </footer>

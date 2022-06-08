@@ -1,0 +1,43 @@
+#image img{
+    border-radius: 45%;
+    max-width: 70%;
+    max-height: 50%;
+}
+
+.progress {
+    border-radius: 10px;
+  }
+
+  .progress .progress-bar {
+    width: 0px;
+    border-radius: 10px;
+    transition: 2s;
+  }
+  .image img {
+      border-radius: 40%;
+      width: 40%;
+  }
+  .show {
+      margin: 3%;
+      border-radius: 25px;
+      border: none;
+      background-color: rgba(72, 204, 197, 0.945);
+      color: #000;
+  }
+  .skills {
+      margin-top: 3.5%;
+      display: flex;
+  }
+
+  p {
+      font-size: 25px;
+  }
+
+  @media(max-width: 544px){
+    .p-pic {
+      display: none;
+    }
+    p {
+      font-size: 18px;
+    }
+  }

@@ -1,0 +1,18 @@
+#back-to-top .show{
+    opacity: 1;
+}
+
+#back-to-top {
+    position: fixed;
+    bottom: 75px;
+    right: 20px;
+    cursor: pointer;
+    z-index: 2;
+}
+.btn-primary {
+    background-color: rgba(72, 204, 197, 0.945);
+    border-color: rgba(72, 204, 197, 0.945);
+}
+.btn-primary:hover {
+    color: indianred;
+}
